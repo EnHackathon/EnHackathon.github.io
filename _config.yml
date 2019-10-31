@@ -25,7 +25,6 @@ description: >- # this means to ignore newlines until "baseurl:"
     various first-time contributors at the Ensoft office of Cisco.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  EnHackathon
 
 # Build settings
 theme: minima
