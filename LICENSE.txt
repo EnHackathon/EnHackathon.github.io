@@ -1,0 +1,2 @@
+This blog uses the Jekyll minima theme.
+The minima theme is licenced under MIT and is available at https://github.com/jekyll/minima
