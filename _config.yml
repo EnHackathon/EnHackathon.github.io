@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
     This EnHackathon site containing blog posts about contributing to Python from
     various first-time contributors at the Ensoft office of Cisco.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://enhackathon.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  EnHackathon
 
 # Build settings
