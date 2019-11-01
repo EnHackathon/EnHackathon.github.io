@@ -16,10 +16,10 @@ Today Ben and I attended a Hacktoberfest event in London for what felt like our 
 The morning started off straightforward enough, with a couple of gotchas along the way. Most of the information you need is available in [CPython's developer guide](https://devguide.python.org/). Note I had already looked through the guide previously without following any of the steps except signing up to 'python-dev' and 'core-mentorship' mailing lists. Also note that my personal setup is with WSL (Ubuntu on Windows) and I use VS Code as my editor. The steps I followed to get fully set up were:
 - Fork the CPython repo on GitHub
 - Add SSH key to GitHub and clone the repo locally using  
-  `git clone git@github:<user>/<project>`
+  `git clone git@github.com:<user>/<project>`
   - I added my preexisting 2048 bit RSA key (~/.ssh/id_rsa.pub) to my GitHub account
-  - To use the SSH protocol to push you need the remote to be configured using 'git@github:' instead of 'https://github.com/' (which would use HTTPS, unsurprisingly) - if you cloned using HTTPS you would need to configure the remote with  
-  `git remote set-url origin git@github:EnHackathon/EnHackathon.github.io`
+  - To use the SSH protocol to push you need the remote to be configured using 'git@github.com:' instead of 'https://github.com/' (which would use HTTPS, unsurprisingly) - if you cloned using HTTPS you would need to configure the remote with  
+  `git remote set-url origin git@github.com:<user>/cpython`
   - Check you can push to your GitHub account without entering credentials (check by running 'git push' - harmless if you haven't made any commits yet)
 - Open the workspace in an IDE and keep the directory structure for reference: <https://devguide.python.org/setup/#directory-structure>
 - Configure and make the project: <https://devguide.python.org/setup/> - I followed the instructions for Unix (you may have dependencies missing - just look for "Python build finished successfully!")
