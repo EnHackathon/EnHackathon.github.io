@@ -3,6 +3,7 @@ layout: post
 title:  "Hacktoberfest Event - Getting Started!"
 date:   2019-10-27
 author: Lewis Gaul
+email: lewis.gaul@gmail.com
 ---
 
 
