@@ -51,7 +51,7 @@ One of the main appeals of this project is that it involves working with the cor
 Some resources I found useful while working on issue 32 were:
 - <https://www.python.org/dev/peps/pep-0554/#interpreters-module-api> - The PEP for exposing the subinterpreters API
 - <https://pythonextensionpatterns.readthedocs.io/en/latest/parsing_arguments.html> - How to handle Python arguments in C
-- <https://docs.python.org/3.3/c-api/list.html> - How to create a Python list in C code
+- <https://docs.python.org/3.9/c-api/list.html> - How to create a Python list in C code
 
 
 ### Other Issues of Interest
