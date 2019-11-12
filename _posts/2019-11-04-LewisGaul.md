@@ -20,7 +20,7 @@ I put quite a lot of effort and energy into encouraging people to join in with E
 
 Now that EnHackathon is in motion I feel like I can start to relax, as others are becoming more involved and less of the responsibility lies with me, which is a relief. However, being one of the more experienced (having done more research and got started at the Hacktoberfest event), I found I spent some of my time helping get other people started. One example of this is that I now feel much more comfortable than I first did at finding potentially suitable issues and posting comments on them, so I was able to provide some suggestions in that regard.
 
-A couple more tips (since my [first blog post](../../../10/27/LewisGaul.html)) for finding suitable issues:
+A couple more tips (since my [first blog post](../../10/27/LewisGaul.html)) for finding suitable issues:
 - Try searching for issues in stage 'patch review'. Most of these have patches attached but no open PR - these can be a good place to start.
 - Try searching for issues with just a few messages. These are often simpler and/or less controversial than issues with loads of comments.
 - Search a keyword in the title field, e.g. 'argparse'.
