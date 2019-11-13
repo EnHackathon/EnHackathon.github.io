@@ -3,6 +3,7 @@ layout: post
 title:  "EnHackathon - Now I know my ABCs"
 date:   2019-11-04
 author: Jackson Riley
+email:  jackson.riley@btinternet.com
 ---
 
 
