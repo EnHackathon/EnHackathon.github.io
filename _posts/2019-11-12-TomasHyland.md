@@ -23,8 +23,8 @@ code, which proved quite slow going. The functionality I was interested in
 required following a long code path.
 
 The key breakthrough came when comparing the setattro functions of
-PyCStructType and UnionType. Both of which called into
-PyCStructUnionTypeupdatestgdict this was a key function that contains a lot of
+PyCStructType and UnionType, both of which call
+PyCStructUnionType_update_stgdict. This is a key function that contains a lot of
 the behaviour we'll need to modify!
 
 It's a large function (several hundred lines) and begins with a comment "Hack
@@ -42,11 +42,11 @@ Even though I've found where some of the key code lives I'm still not sure how
 the rest of the code fits together - there is still a fair amount of
 investigation work to do. 
 
-I'm currently looking into why UnionTypesetattro uses PyObjectGenericSetAttr
-but PyCStructTypesetattro uses typesetattro. The generic function is just a
-wrapper around PyObjectGenericSetAttrWithDict, whereas typesetattro does some
+I'm currently looking into why UnionType_setattro uses PyObject_GenericSetAttr
+but PyCStructType_setattro uses type_setattro. The generic function is just a
+wrapper around PyObject_GenericSetAttrWithDict, whereas type_setattro does some
 additional Unicode handling and checking of the 'name' before calling into
-PyObjectGenericSetAttrWithDict. Again I can't find any documentation for this,
+PyObject_GenericSetAttrWithDict. Again I can't find any documentation for this,
 so it isn't clear to me yet what the additional handling is needed for, or
 whether it relates to Endianness at all.
 
