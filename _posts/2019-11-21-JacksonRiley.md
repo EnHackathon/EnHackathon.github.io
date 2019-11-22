@@ -22,7 +22,7 @@ I hadn't had any comments on my patch that I posted to the bpo thread last week,
 
 [Issue 34716](https://bugs.python.org/issue34716) covers fixing up an interaction between [`unittest.mock.MagicMock`](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.MagicMock) and the built-in [`divmod`](https://docs.python.org/3/library/functions.html#divmod) function.
 
-My winners of the options from [last time](https://enhackathon.github.io/2019/11/12/JacksonRiley.html) were
+My winners of the options from [last time](../12/JacksonRiley.html) were
 
 * Return a pair of `MagicMock` instances. This is very sensible and in-keeping with the rest of the behaviour of `MagicMock`.
 

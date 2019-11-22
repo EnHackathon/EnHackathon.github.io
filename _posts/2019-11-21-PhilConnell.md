@@ -6,7 +6,7 @@ author: Phil Connell
 ---
 
 Lacking a solid plan-in-advance for the day, I decided on the (seemingly
-machochistic!) plan to look into the odd post-finalization crash I started on
+masochistic!) plan to look into the odd post-finalization crash I started on
 [last time](../21/PhilConnell.html).
 
 Recapping my previous summary:
