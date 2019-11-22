@@ -40,4 +40,4 @@ The second half of my day was spent helping Lewis with some segmentation faults 
 
 # Conclusion
 
-I thoroughly enjoyed my second day of Python Development and I feel like I am quickly coming to grips with the process. I am also very happy with what I achieved, setting up my second pull request and ramping up on whatever is happening with sub-interpreters. Next time I will continue to work on my review markups for the pull request and help Lewis out with sub-interpeters if he needs it.
+I thoroughly enjoyed my second day of Python Development and I feel like I am quickly coming to grips with the process. I am also very happy with what I achieved, setting up my second pull request and ramping up on whatever is happening with sub-interpreters. Next time I will continue to work on my review markups for the pull request and help Lewis out with sub-interpreters if he needs it.
