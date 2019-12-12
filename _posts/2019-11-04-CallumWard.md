@@ -16,14 +16,14 @@ make at least a dent into giving back to CPython.
 ## Starting Out
 
 I started out by looking for issues on [BPO, Python's bug
-tracker](bugs.python.org) which were marked with the `newcomer-friendly`
+tracker](https://bugs.python.org) which were marked with the `newcomer-friendly`
 keyword, as they are issues specifically marked out by maintainers as attainable
 first contributions.
 
 I got a bit of luck, as almost all of the current `newcomer-friendly` issues had
 been chased up by fellow contributor Ben: he kindly let me take and work on
 a small task to add a new method to an existing implemented class in the
-`unix_events` module of `asyncio`. [(bpo-38314)](bugs.python.org/issue38314)
+`unix_events` module of `asyncio`. [(bpo-38314)](https://bugs.python.org/issue38314)
 
 The change basically requests that the method `is_reading()` is added to the
 read pipe transport for `asyncio` as implemented on UNIX systems, since it is
