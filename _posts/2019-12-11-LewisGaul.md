@@ -10,7 +10,7 @@ email:  lewis.gaul@gmail.com
 Today was my last day of EnHackathon for 2019. I feel like it went fairly well, with things being a bit clearer given a number of us have now spent a number of days getting familiar with the code and the process. We had a couple of new faces in the group this time, as well as a couple following up on previous contribution efforts.
 
 This time I felt like I had a bit more involvement in a couple of the things other people were working on - I found these issues quite interesting and would recommend reading the respective blog posts:
- - [Subinterpreters channel locking](./BenjaminEdwards.html)
+ - Subinterpreters channel locking (see the [GitHub issue](https://github.com/ericsnowcurrently/multi-core-python/issues/19))
  - [Subclassing `ctypes` classes](./RebeccaMorgan.html)
  - [A issue/feature request in `shutil.move`](./EshanSinghal.html)
  - [Looking into contributing to BeeWare](./CallumWard.html)
