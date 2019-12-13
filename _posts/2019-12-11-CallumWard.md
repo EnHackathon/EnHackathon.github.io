@@ -33,13 +33,13 @@ Beeware has several constituent projects, some of the relevant ones are:
   CSS specification for resolving positions and locations of elements on
   a canvas, used by `toga` for styling applications
 
-- [`voc`](https://github.com/beeware/voc): an implementation of the Python
-  runtime in Java (like the one written in C for CPython) allowing Python to
-  compile and run on the JVM, enabling Android native apps
+- [`voc`](https://github.com/beeware/voc): a transpiler which converts Python
+  bytecode allowing Python to be compiled into Java bytecode and run on the JVM,
+  enabling Android native apps
 
 - [`batavia`](https://github.com/beeware/batavia): an implementation of the
-  Python runtime in Javascript, enabling Python to run on the browser and over
-  `node.js`
+  Python virtual machine in Javascript, enabling Python bytecode to run on the
+  browser or over `node.js`
 
 The one which is most obviously approachable starting from a background of just
 Python (as opposed to native widget libraries like Cocoa, GTK+, or Java and
