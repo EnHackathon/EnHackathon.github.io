@@ -10,7 +10,7 @@ I was very excited to receive an email from Eric inviting me to join the week-lo
 This follows on from when I worked with Eric on the subinterpreters CPython project a year ago as part of EnHackathon - see my last EnHackathon [blog post](https://enhackathon.github.io/2019/12/11/LewisGaul.html) for context.
 
 
-Note: This post is cross-posted on my personal blog at <https://lewisgaul.co.uk/blog/coding/2020/10/24/cpython-sprint/>.
+Note: This post is cross-posted on my personal blog at <http://lewisgaul.co.uk/blog/coding/2020/10/24/cpython-sprint/>.
 
 
 ## First Impressions
