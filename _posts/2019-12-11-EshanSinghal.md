@@ -3,7 +3,6 @@ layout: post
 title:  "Sh - the baby's coding"
 date:   2019-12-11
 author: Eshan Singhal
-email: eshansinghal21@gmail.com
 ---
 
 I took my first baby steps in the world of open source today with EnHackathon. 
